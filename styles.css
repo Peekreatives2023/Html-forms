@@ -117,3 +117,8 @@ body{
     font-weight: 600;
     text-decoration: none;
 }
+
+#message{
+    color: red;
+    font-size: 14px;
+}
