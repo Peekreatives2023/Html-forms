@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp form</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <form class="login-form">
@@ -13,21 +14,23 @@
                 <header>SignUp</header>
             </div>
             <div class="input-box">
-                <input type="Name" class="input-field" placeholder="Name" 
-                autocomplete="off">
-                <p id="message"></p>
+                <input type="text" class="input-field" placeholder="Name" autocomplete="off">
+                <p id="nameMessage" class="error"></p>
+                <span id="nameSuccess" class="checkmark"></span>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Password"
-                autocomplete="off" >
-
+                <input type="password" class="input-field" placeholder="Password" autocomplete="off">
+                <p id="passwordMessage" class="error"></p>
+                <span id="passwordSuccess" class="checkmark"></span>
             </div>
             <div class="input-box">
-                <input type="password" class="input-field" placeholder="Confirmpassword" autocomplete="off">
+                <input type="password" class="input-field" placeholder="Confirm Password" autocomplete="off">
+                <p id="confirmPasswordMessage" class="error"></p>
+                <span id="confirmPasswordSuccess" class="checkmark"></span>
             </div>
             <div class="input-submit">
-                <button class="submit-btn" id="submit"></button>
-                <label for="submit">Login</label>
+                <button class="submit-btn" id="submit">Submit</button>
+                <label for="submit">Submit</label>
             </div>
             <div class="sign-up-link">
                 <p>Already have an account? <a href="Login.html">Login</a></p>

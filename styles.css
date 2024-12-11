@@ -122,3 +122,21 @@ body{
     color: red;
     font-size: 14px;
 }
+
+
+        .error { color: red; }
+        .success { color: green; }
+        .input-box {
+            position: relative;
+        }
+        .input-field {
+            padding-right: 30px; /* Add space for the checkmark */
+        }
+        .checkmark {
+            color: green;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
